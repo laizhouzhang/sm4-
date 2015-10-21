@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC64725C1BD822D700996E37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64725B1BD822D700996E37 /* main.m */; };
+		EC64725F1BD822D800996E37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64725E1BD822D800996E37 /* AppDelegate.m */; };
+		EC6472621BD822D800996E37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6472611BD822D800996E37 /* ViewController.m */; };
+		EC6472651BD822D800996E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6472631BD822D800996E37 /* Main.storyboard */; };
+		EC6472671BD822D800996E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6472661BD822D800996E37 /* Assets.xcassets */; };
+		EC64726A1BD822D800996E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6472681BD822D800996E37 /* LaunchScreen.storyboard */; };
+		EC6472761BD822E400996E37 /* sm4.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6472731BD822E400996E37 /* sm4.m */; settings = {ASSET_TAGS = (); }; };
+		EC6472771BD822E400996E37 /* sm4login.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6472751BD822E400996E37 /* sm4login.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC6472571BD822D700996E37 /* sm4加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sm4加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC64725B1BD822D700996E37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC64725D1BD822D700996E37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC64725E1BD822D800996E37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6472601BD822D800996E37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6472611BD822D800996E37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6472641BD822D800996E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6472661BD822D800996E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6472691BD822D800996E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC64726B1BD822D800996E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6472721BD822E400996E37 /* sm4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4.h; sourceTree = "<group>"; };
+		EC6472731BD822E400996E37 /* sm4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sm4.m; sourceTree = "<group>"; };
+		EC6472741BD822E400996E37 /* sm4login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4login.h; sourceTree = "<group>"; };
+		EC6472751BD822E400996E37 /* sm4login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sm4login.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6472541BD822D700996E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC64724E1BD822D700996E37 = {
+			isa = PBXGroup;
+			children = (
+				EC6472591BD822D700996E37 /* sm4加密 */,
+				EC6472581BD822D700996E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6472581BD822D700996E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6472571BD822D700996E37 /* sm4加密.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6472591BD822D700996E37 /* sm4加密 */ = {
+			isa = PBXGroup;
+			children = (
+				EC6472711BD822E400996E37 /* SM4 */,
+				EC64725D1BD822D700996E37 /* AppDelegate.h */,
+				EC64725E1BD822D800996E37 /* AppDelegate.m */,
+				EC6472601BD822D800996E37 /* ViewController.h */,
+				EC6472611BD822D800996E37 /* ViewController.m */,
+				EC6472631BD822D800996E37 /* Main.storyboard */,
+				EC6472661BD822D800996E37 /* Assets.xcassets */,
+				EC6472681BD822D800996E37 /* LaunchScreen.storyboard */,
+				EC64726B1BD822D800996E37 /* Info.plist */,
+				EC64725A1BD822D700996E37 /* Supporting Files */,
+			);
+			path = "sm4加密";
+			sourceTree = "<group>";
+		};
+		EC64725A1BD822D700996E37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC64725B1BD822D700996E37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6472711BD822E400996E37 /* SM4 */ = {
+			isa = PBXGroup;
+			children = (
+				EC6472721BD822E400996E37 /* sm4.h */,
+				EC6472731BD822E400996E37 /* sm4.m */,
+				EC6472741BD822E400996E37 /* sm4login.h */,
+				EC6472751BD822E400996E37 /* sm4login.m */,
+			);
+			path = SM4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6472561BD822D700996E37 /* sm4加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC64726E1BD822D800996E37 /* Build configuration list for PBXNativeTarget "sm4加密" */;
+			buildPhases = (
+				EC6472531BD822D700996E37 /* Sources */,
+				EC6472541BD822D700996E37 /* Frameworks */,
+				EC6472551BD822D700996E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sm4加密";
+			productName = "sm4加密";
+			productReference = EC6472571BD822D700996E37 /* sm4加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC64724F1BD822D700996E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "张飞蓬";
+				TargetAttributes = {
+					EC6472561BD822D700996E37 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EC6472521BD822D700996E37 /* Build configuration list for PBXProject "sm4加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC64724E1BD822D700996E37;
+			productRefGroup = EC6472581BD822D700996E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6472561BD822D700996E37 /* sm4加密 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6472551BD822D700996E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC64726A1BD822D800996E37 /* LaunchScreen.storyboard in Resources */,
+				EC6472671BD822D800996E37 /* Assets.xcassets in Resources */,
+				EC6472651BD822D800996E37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6472531BD822D700996E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6472761BD822E400996E37 /* sm4.m in Sources */,
+				EC6472621BD822D800996E37 /* ViewController.m in Sources */,
+				EC6472771BD822E400996E37 /* sm4login.m in Sources */,
+				EC64725F1BD822D800996E37 /* AppDelegate.m in Sources */,
+				EC64725C1BD822D700996E37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC6472631BD822D800996E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6472641BD822D800996E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6472681BD822D800996E37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6472691BD822D800996E37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC64726C1BD822D800996E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC64726D1BD822D800996E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC64726F1BD822D800996E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sm4加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.sm4--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6472701BD822D800996E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sm4加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.sm4--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6472521BD822D700996E37 /* Build configuration list for PBXProject "sm4加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64726C1BD822D800996E37 /* Debug */,
+				EC64726D1BD822D800996E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC64726E1BD822D800996E37 /* Build configuration list for PBXNativeTarget "sm4加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64726F1BD822D800996E37 /* Debug */,
+				EC6472701BD822D800996E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC64724F1BD822D700996E37 /* Project object */;
+}
